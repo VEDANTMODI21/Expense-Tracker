@@ -11,8 +11,8 @@ import csv
 try:
     db_conn = mysql.connector.connect(
         host="localhost",
-        user="Vedant",  # Your MySQL username
-        password="&Wearegood100",  # Your MySQL password
+        user="user",  # Your MySQL username
+        password="yourpassword",  # Your MySQL password
         database="expense"  # Your MySQL database name
     )
     if db_conn.is_connected():
